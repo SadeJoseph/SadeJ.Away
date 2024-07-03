@@ -26,6 +26,8 @@ export default function RootLayout({
       overflow-x-hidden bg-light`}>
         <Navbar/>
         <Footer/>
+       
+       
         {children}
         </body>
       
