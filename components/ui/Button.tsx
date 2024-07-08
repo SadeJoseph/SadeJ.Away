@@ -1,7 +1,7 @@
 
 interface buttonProps {
   text: string
-  onClick: () => void
+  onClick?: () => void
 }
 
 

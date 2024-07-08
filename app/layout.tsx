@@ -25,10 +25,9 @@ export default function RootLayout({
       <body className={`${roboto.className} 
       overflow-x-hidden bg-light`}>
         <Navbar/>
-        <Footer/>
-       
-       
         {children}
+        <Footer/>
+    
         </body>
       
     </html>
